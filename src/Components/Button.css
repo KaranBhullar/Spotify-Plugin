@@ -1,0 +1,64 @@
+/*CONNECT TO SPOTIFY BUTTON*/
+#btnConnect {
+    background-color: #1db954;
+    border: 1px #1db954;
+    color:white;
+    height:fit-content;
+    width:fit-content;
+}
+
+/*LEFT BUTTON*/
+#btnLeft {
+    background-color: #1db954;
+    border: 1px #1db954;
+    color: black;
+    height:40px;
+    width: 40px;
+    left:20%;
+    top:25%;
+    box-shadow: 0 2px 2px darkslategray;
+}
+
+#btnLeft:hover {
+    background-color: #1bcf5a;
+}
+
+#btnLeft:active {
+    height:38px;
+    width: 38px;
+    background-color: #1db954;
+}
+
+/*RIGHT BUTTON*/
+#btnRight {
+    background-color: #d70f66;
+    border: 1px #d70f66;
+    color: black;
+    height:40px;
+    width: 40px;
+    right:20%;
+    top:25%;
+}
+
+#btnRight:hover {
+    background-color: #ec096c;
+}
+
+#btnRight:active {
+    height:38px;
+    width: 38px;
+    background-color: #d70f66;
+}
+
+/*BUTTON CLASS*/
+.button {
+    padding: 0px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    border-radius: 50%;
+    position:absolute;
+}
+
+.button:active {
+    transition-duration: 0s;
+}
