@@ -4,7 +4,7 @@ interface Props {
     name:string;
     id:string;
     className:string;
-    onclick: () => void;
+    onclick: any;
 }
 
 function Button({name, id, className, onclick} :Props) {
